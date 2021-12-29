@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(141, 137, 137, 0.493);
+
+}
+
+section h1 {
+    font-family: sans-serif;
+
+
+}
+
+section {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #fff;
+    width: 500px;
+    margin: 300px auto 300px auto; 
+    padding: 0.6em;
+    border-radius: 10px 25px;
+    box-shadow: 2px 9px 51px rgba(0, 0, 0, 0.383);
+
+}
+
+footer {
+    font-family: sans-serif;
+    text-align: center;
+
+}

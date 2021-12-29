@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudando JS</title>
+    <style>
+        body {
+            background-color: rgba(8, 158, 108, 0.829);
+        }
+
+        h1 {
+            color: rgba(241, 241, 7, 0.931);
+            text-align: center;
+        }
+
+        p {
+            color: rgba(0, 0, 255, 0.637);
+            text-align: center;
+            margin-top: 100px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo!</h1>
+    <p>Já me livrei da maldição!</p>
+    <script>
+        //Number.parseInt converte o que vier na janela para um número inteiro. (5+2, 3+1, etc..)
+        //Number.parseFloat converte o que vier na janela para número real. (5,2 + 2  ,  3,5 + 4, etc...)
+        //Number usando apenas o Number ele faz a conversão sozinho, tanto para real quanto para ineiro.
+        var n1 = Number.parseFloat(window.prompt('Digite um número: ')) 
+        var n2 = Number.parseFloat(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // o "+" serve para adição, mas também serve para concatenação.
+    </script>
+</body>
+</html>
